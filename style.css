@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Match background color closely */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 25px; /* More rounded */
+    padding: 31px 30px; /* Adjusted for better spacing */
+    text-align: center;
+    width: 410px; /* Exact width match */
+    height: 480px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    margin-top: -360px; /* Adjust this for precise alignment */
+}
+
+.profile-pic {
+    width: 160px; /* Corrected to match original */
+    height: 250px; /* Closer to vertical oval */
+    border-radius: 10rem; /* More oval shape */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 0px solid #ddd; /* Lighter border */
+}
+
+.name {
+    font-size: 20px; /* Closer to original size */
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif
+    color: #212529;; /* Darker text */
+    margin-top: 5px; /* Fine-tuned spacing */
+    margin-bottom: 5px;
+}
+
+.dob {
+    color:rgba(33, 37, 41, .75);
+    font-size: 16px; /* Adjusted for size */
+    margin-bottom: 25px; /* Fine-tuned spacing */
+    margin-top: 10px;
+}
+
+.status {
+    background-color: #e0f7eb; /* Match verified color */
+    color: #212529 (0, 0%, 0%); /* Dark green for verified */
+    padding: 15px 20px; /* Adjust padding */
+    border-radius: 1.6rem; /* Keep rounded corners */
+    font-weight: 700; /* Keep font weight */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    font-size: 1.25rem; /* Match font size */
+    text-align: center !important; /* Ensure text-align */
+    margin: 10px -14px; /* Center horizontally */
+    margin-top: 32px;
+    width: 380px; /* Keep original width */
+    height: 70px; /* Change to auto to accommodate text size */
+    min-height: 60px; /* Ensure a minimum height */
+}
